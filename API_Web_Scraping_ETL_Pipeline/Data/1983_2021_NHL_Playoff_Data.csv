@@ -1,0 +1,625 @@
+playoff_teams,playoff_year_range,id
+New York Islanders,19811982,2
+Vancouver Canucks,19811982,23
+Chicago Black Hawks,19811982,16
+Quebec Nordiques,19811982,100
+Boston Bruins,19811982,6
+St. Louis Blues,19811982,19
+New York Rangers,19811982,3
+Los Angeles Kings,19811982,26
+Edmonton Oilers,19811982,22
+Pittsburgh Penguins,19811982,5
+Montreal Canadiens,19811982,8
+Buffalo Sabres,19811982,7
+Winnipeg Jets,19811982,52
+Philadelphia Flyers,19811982,4
+Minnesota North Stars,19811982,100
+Calgary Flames,19811982,20
+New York Islanders,19821983,2
+Edmonton Oilers,19821983,22
+Boston Bruins,19821983,6
+Chicago Black Hawks,19821983,16
+Buffalo Sabres,19821983,7
+New York Rangers,19821983,3
+Minnesota North Stars,19821983,100
+Calgary Flames,19821983,20
+Quebec Nordiques,19821983,100
+Washington Capitals,19821983,15
+Toronto Maple Leafs,19821983,10
+Vancouver Canucks,19821983,23
+St. Louis Blues,19821983,19
+Philadelphia Flyers,19821983,4
+Montreal Canadiens,19821983,8
+Winnipeg Jets,19821983,52
+Edmonton Oilers,19831984,22
+New York Islanders,19831984,2
+Montreal Canadiens,19831984,8
+Minnesota North Stars,19831984,100
+Calgary Flames,19831984,20
+St. Louis Blues,19831984,19
+Quebec Nordiques,19831984,100
+Washington Capitals,19831984,15
+New York Rangers,19831984,3
+Chicago Black Hawks,19831984,16
+Detroit Red Wings,19831984,17
+Vancouver Canucks,19831984,23
+Buffalo Sabres,19831984,7
+Boston Bruins,19831984,6
+Philadelphia Flyers,19831984,4
+Winnipeg Jets,19831984,52
+Edmonton Oilers,19841985,22
+Philadelphia Flyers,19841985,4
+Chicago Black Hawks,19841985,16
+Quebec Nordiques,19841985,100
+Montreal Canadiens,19841985,8
+Minnesota North Stars,19841985,100
+New York Islanders,19841985,2
+Winnipeg Jets,19841985,52
+Boston Bruins,19841985,6
+Washington Capitals,19841985,15
+Buffalo Sabres,19841985,7
+Calgary Flames,19841985,20
+Los Angeles Kings,19841985,26
+Detroit Red Wings,19841985,17
+St. Louis Blues,19841985,19
+New York Rangers,19841985,3
+Montreal Canadiens,19851986,8
+Calgary Flames,19851986,20
+St. Louis Blues,19851986,19
+New York Rangers,19851986,3
+Edmonton Oilers,19851986,22
+Toronto Maple Leafs,19851986,10
+Hartford Whalers,19851986,100
+Washington Capitals,19851986,15
+Philadelphia Flyers,19851986,4
+Minnesota North Stars,19851986,100
+Winnipeg Jets,19851986,52
+Chicago Black Hawks,19851986,16
+New York Islanders,19851986,2
+Quebec Nordiques,19851986,100
+Boston Bruins,19851986,6
+Vancouver Canucks,19851986,23
+Edmonton Oilers,19861987,22
+Philadelphia Flyers,19861987,4
+Montreal Canadiens,19861987,8
+Detroit Red Wings,19861987,17
+Toronto Maple Leafs,19861987,10
+Quebec Nordiques,19861987,100
+New York Islanders,19861987,2
+Winnipeg Jets,19861987,52
+Washington Capitals,19861987,15
+Calgary Flames,19861987,20
+St. Louis Blues,19861987,19
+New York Rangers,19861987,3
+Hartford Whalers,19861987,100
+Los Angeles Kings,19861987,26
+Chicago Blackhawks,19861987,16
+Boston Bruins,19861987,6
+Edmonton Oilers,19871988,22
+Boston Bruins,19871988,6
+New Jersey Devils,19871988,1
+Detroit Red Wings,19871988,17
+Washington Capitals,19871988,15
+St. Louis Blues,19871988,19
+Montreal Canadiens,19871988,8
+Calgary Flames,19871988,20
+Philadelphia Flyers,19871988,4
+Buffalo Sabres,19871988,7
+New York Islanders,19871988,2
+Hartford Whalers,19871988,100
+Toronto Maple Leafs,19871988,10
+Los Angeles Kings,19871988,26
+Chicago Blackhawks,19871988,16
+Winnipeg Jets,19871988,52
+Calgary Flames,19881989,20
+Montreal Canadiens,19881989,8
+Philadelphia Flyers,19881989,4
+Chicago Blackhawks,19881989,16
+Pittsburgh Penguins,19881989,5
+Boston Bruins,19881989,6
+St. Louis Blues,19881989,19
+Los Angeles Kings,19881989,26
+Vancouver Canucks,19881989,23
+Edmonton Oilers,19881989,22
+Washington Capitals,19881989,15
+Detroit Red Wings,19881989,17
+Buffalo Sabres,19881989,7
+Minnesota North Stars,19881989,100
+New York Rangers,19881989,3
+Hartford Whalers,19881989,100
+Edmonton Oilers,19891990,22
+Boston Bruins,19891990,6
+Chicago Blackhawks,19891990,16
+Washington Capitals,19891990,15
+St. Louis Blues,19891990,19
+New York Rangers,19891990,3
+Montreal Canadiens,19891990,8
+Los Angeles Kings,19891990,26
+Minnesota North Stars,19891990,100
+Hartford Whalers,19891990,100
+Winnipeg Jets,19891990,52
+Calgary Flames,19891990,20
+New Jersey Devils,19891990,1
+Buffalo Sabres,19891990,7
+New York Islanders,19891990,2
+Toronto Maple Leafs,19891990,10
+Pittsburgh Penguins,19901991,5
+Minnesota North Stars,19901991,100
+Boston Bruins,19901991,6
+Edmonton Oilers,19901991,22
+Montreal Canadiens,19901991,8
+Los Angeles Kings,19901991,26
+St. Louis Blues,19901991,19
+Washington Capitals,19901991,15
+Detroit Red Wings,19901991,17
+Calgary Flames,19901991,20
+New Jersey Devils,19901991,1
+New York Rangers,19901991,3
+Buffalo Sabres,19901991,7
+Hartford Whalers,19901991,100
+Vancouver Canucks,19901991,23
+Chicago Blackhawks,19901991,16
+Pittsburgh Penguins,19911992,5
+Chicago Blackhawks,19911992,16
+Boston Bruins,19911992,6
+Edmonton Oilers,19911992,22
+New York Rangers,19911992,3
+Vancouver Canucks,19911992,23
+Detroit Red Wings,19911992,17
+Montreal Canadiens,19911992,8
+Minnesota North Stars,19911992,100
+Washington Capitals,19911992,15
+New Jersey Devils,19911992,1
+Hartford Whalers,19911992,100
+Buffalo Sabres,19911992,7
+Winnipeg Jets,19911992,52
+St. Louis Blues,19911992,19
+Los Angeles Kings,19911992,26
+Montreal Canadiens,19921993,8
+Los Angeles Kings,19921993,26
+Toronto Maple Leafs,19921993,10
+New York Islanders,19921993,2
+St. Louis Blues,19921993,19
+Pittsburgh Penguins,19921993,5
+Vancouver Canucks,19921993,23
+Buffalo Sabres,19921993,7
+Detroit Red Wings,19921993,17
+Calgary Flames,19921993,20
+Winnipeg Jets,19921993,52
+Washington Capitals,19921993,15
+Quebec Nordiques,19921993,100
+New Jersey Devils,19921993,1
+Chicago Blackhawks,19921993,16
+Boston Bruins,19921993,6
+New York Rangers,19931994,3
+Vancouver Canucks,19931994,23
+New Jersey Devils,19931994,1
+Toronto Maple Leafs,19931994,10
+San Jose Sharks,19931994,28
+Boston Bruins,19931994,6
+Dallas Stars,19931994,25
+Washington Capitals,19931994,15
+Buffalo Sabres,19931994,7
+Montreal Canadiens,19931994,8
+Detroit Red Wings,19931994,17
+Calgary Flames,19931994,20
+Chicago Blackhawks,19931994,16
+Pittsburgh Penguins,19931994,5
+St. Louis Blues,19931994,19
+New York Islanders,19931994,2
+New Jersey Devils,19941995,1
+Detroit Red Wings,19941995,17
+Philadelphia Flyers,19941995,4
+Chicago Blackhawks,19941995,16
+Pittsburgh Penguins,19941995,5
+New York Rangers,19941995,3
+Vancouver Canucks,19941995,23
+San Jose Sharks,19941995,28
+Washington Capitals,19941995,15
+St. Louis Blues,19941995,19
+Toronto Maple Leafs,19941995,10
+Calgary Flames,19941995,20
+Quebec Nordiques,19941995,100
+Boston Bruins,19941995,6
+Buffalo Sabres,19941995,7
+Dallas Stars,19941995,25
+Colorado Avalanche,19951996,21
+Florida Panthers,19951996,13
+Pittsburgh Penguins,19951996,5
+Detroit Red Wings,19951996,17
+St. Louis Blues,19951996,19
+Chicago Blackhawks,19951996,16
+Philadelphia Flyers,19951996,4
+New York Rangers,19951996,3
+Montreal Canadiens,19951996,8
+Vancouver Canucks,19951996,23
+Washington Capitals,19951996,15
+Winnipeg Jets,19951996,52
+Toronto Maple Leafs,19951996,10
+Tampa Bay Lightning,19951996,14
+Boston Bruins,19951996,6
+Calgary Flames,19951996,20
+Detroit Red Wings,19961997,17
+Philadelphia Flyers,19961997,4
+Colorado Avalanche,19961997,21
+New York Rangers,19961997,3
+New Jersey Devils,19961997,1
+Edmonton Oilers,19961997,22
+Buffalo Sabres,19961997,7
+Mighty Ducks of Anaheim,19961997,24
+Dallas Stars,19961997,25
+Ottawa Senators,19961997,9
+Phoenix Coyotes,19961997,53
+Chicago Blackhawks,19961997,16
+St. Louis Blues,19961997,19
+Pittsburgh Penguins,19961997,5
+Montreal Canadiens,19961997,8
+Florida Panthers,19961997,13
+Detroit Red Wings,19971998,17
+Washington Capitals,19971998,15
+Buffalo Sabres,19971998,7
+Dallas Stars,19971998,25
+St. Louis Blues,19971998,19
+Ottawa Senators,19971998,9
+Edmonton Oilers,19971998,22
+Montreal Canadiens,19971998,8
+Colorado Avalanche,19971998,21
+San Jose Sharks,19971998,28
+Pittsburgh Penguins,19971998,5
+Boston Bruins,19971998,6
+New Jersey Devils,19971998,1
+Phoenix Coyotes,19971998,53
+Philadelphia Flyers,19971998,4
+Los Angeles Kings,19971998,26
+Dallas Stars,19981999,25
+Buffalo Sabres,19981999,7
+Colorado Avalanche,19981999,21
+Toronto Maple Leafs,19981999,10
+Detroit Red Wings,19981999,17
+Boston Bruins,19981999,6
+St. Louis Blues,19981999,19
+Pittsburgh Penguins,19981999,5
+Phoenix Coyotes,19981999,53
+New Jersey Devils,19981999,1
+San Jose Sharks,19981999,28
+Philadelphia Flyers,19981999,4
+Carolina Hurricanes,19981999,12
+Mighty Ducks of Anaheim,19981999,24
+Edmonton Oilers,19981999,22
+Ottawa Senators,19981999,9
+New Jersey Devils,19992000,1
+Dallas Stars,19992000,25
+Colorado Avalanche,19992000,21
+Philadelphia Flyers,19992000,4
+Pittsburgh Penguins,19992000,5
+Toronto Maple Leafs,19992000,10
+Detroit Red Wings,19992000,17
+San Jose Sharks,19992000,28
+St. Louis Blues,19992000,19
+Ottawa Senators,19992000,9
+Edmonton Oilers,19992000,22
+Washington Capitals,19992000,15
+Buffalo Sabres,19992000,7
+Phoenix Coyotes,19992000,53
+Florida Panthers,19992000,13
+Los Angeles Kings,19992000,26
+Colorado Avalanche,20002001,21
+New Jersey Devils,20002001,1
+St. Louis Blues,20002001,19
+Pittsburgh Penguins,20002001,5
+Toronto Maple Leafs,20002001,10
+Buffalo Sabres,20002001,7
+Los Angeles Kings,20002001,26
+Dallas Stars,20002001,25
+Detroit Red Wings,20002001,17
+Edmonton Oilers,20002001,22
+Washington Capitals,20002001,15
+San Jose Sharks,20002001,28
+Carolina Hurricanes,20002001,12
+Philadelphia Flyers,20002001,4
+Ottawa Senators,20002001,9
+Vancouver Canucks,20002001,23
+Detroit Red Wings,20012002,17
+Carolina Hurricanes,20012002,12
+Colorado Avalanche,20012002,21
+Toronto Maple Leafs,20012002,10
+Ottawa Senators,20012002,9
+San Jose Sharks,20012002,28
+Montreal Canadiens,20012002,8
+St. Louis Blues,20012002,19
+New York Islanders,20012002,2
+Los Angeles Kings,20012002,26
+Vancouver Canucks,20012002,23
+New Jersey Devils,20012002,1
+Boston Bruins,20012002,6
+Chicago Blackhawks,20012002,16
+Phoenix Coyotes,20012002,53
+Philadelphia Flyers,20012002,4
+New Jersey Devils,20022003,1
+Mighty Ducks of Anaheim,20022003,24
+Ottawa Senators,20022003,9
+Minnesota Wild,20022003,30
+Vancouver Canucks,20022003,23
+Dallas Stars,20022003,25
+Philadelphia Flyers,20022003,4
+Tampa Bay Lightning,20022003,14
+St. Louis Blues,20022003,19
+Colorado Avalanche,20022003,21
+Toronto Maple Leafs,20022003,10
+Edmonton Oilers,20022003,22
+Washington Capitals,20022003,15
+New York Islanders,20022003,2
+Boston Bruins,20022003,6
+Detroit Red Wings,20022003,17
+Tampa Bay Lightning,20032004,14
+Calgary Flames,20032004,20
+Philadelphia Flyers,20032004,4
+San Jose Sharks,20032004,28
+Colorado Avalanche,20032004,21
+Detroit Red Wings,20032004,17
+Toronto Maple Leafs,20032004,10
+Montreal Canadiens,20032004,8
+Boston Bruins,20032004,6
+Ottawa Senators,20032004,9
+Vancouver Canucks,20032004,23
+Nashville Predators,20032004,18
+Dallas Stars,20032004,25
+New York Islanders,20032004,2
+St. Louis Blues,20032004,19
+New Jersey Devils,20032004,1
+Carolina Hurricanes,20052006,12
+Edmonton Oilers,20052006,22
+Buffalo Sabres,20052006,7
+Mighty Ducks of Anaheim,20052006,24
+San Jose Sharks,20052006,28
+New Jersey Devils,20052006,1
+Ottawa Senators,20052006,9
+Colorado Avalanche,20052006,21
+Calgary Flames,20052006,20
+Detroit Red Wings,20052006,17
+Montreal Canadiens,20052006,8
+Philadelphia Flyers,20052006,4
+Nashville Predators,20052006,18
+Dallas Stars,20052006,25
+Tampa Bay Lightning,20052006,14
+New York Rangers,20052006,3
+Anaheim Ducks,20062007,24
+Ottawa Senators,20062007,9
+Detroit Red Wings,20062007,17
+Buffalo Sabres,20062007,7
+New York Rangers,20062007,3
+San Jose Sharks,20062007,28
+New Jersey Devils,20062007,1
+Vancouver Canucks,20062007,23
+Dallas Stars,20062007,25
+Tampa Bay Lightning,20062007,14
+Calgary Flames,20062007,20
+Nashville Predators,20062007,18
+Minnesota Wild,20062007,30
+New York Islanders,20062007,2
+Pittsburgh Penguins,20062007,5
+Atlanta Thrashers,20062007,100
+Detroit Red Wings,20072008,17
+Pittsburgh Penguins,20072008,5
+Dallas Stars,20072008,25
+Philadelphia Flyers,20072008,4
+San Jose Sharks,20072008,28
+New York Rangers,20072008,3
+Montreal Canadiens,20072008,8
+Colorado Avalanche,20072008,21
+Washington Capitals,20072008,15
+Boston Bruins,20072008,6
+Calgary Flames,20072008,20
+Minnesota Wild,20072008,30
+Nashville Predators,20072008,18
+Anaheim Ducks,20072008,24
+New Jersey Devils,20072008,1
+Ottawa Senators,20072008,9
+Pittsburgh Penguins,20082009,5
+Detroit Red Wings,20082009,17
+Chicago Blackhawks,20082009,16
+Carolina Hurricanes,20082009,12
+Boston Bruins,20082009,6
+Anaheim Ducks,20082009,24
+Washington Capitals,20082009,15
+Vancouver Canucks,20082009,23
+New Jersey Devils,20082009,1
+New York Rangers,20082009,3
+Philadelphia Flyers,20082009,4
+San Jose Sharks,20082009,28
+Calgary Flames,20082009,20
+St. Louis Blues,20082009,19
+Columbus Blue Jackets,20082009,29
+Montreal Canadiens,20082009,8
+Chicago Blackhawks,20092010,16
+Philadelphia Flyers,20092010,4
+Montreal Canadiens,20092010,8
+San Jose Sharks,20092010,28
+Boston Bruins,20092010,6
+Pittsburgh Penguins,20092010,5
+Vancouver Canucks,20092010,23
+Detroit Red Wings,20092010,17
+Phoenix Coyotes,20092010,53
+Washington Capitals,20092010,15
+Ottawa Senators,20092010,9
+Nashville Predators,20092010,18
+Los Angeles Kings,20092010,26
+Buffalo Sabres,20092010,7
+Colorado Avalanche,20092010,21
+New Jersey Devils,20092010,1
+Boston Bruins,20102011,6
+Vancouver Canucks,20102011,23
+Tampa Bay Lightning,20102011,14
+San Jose Sharks,20102011,28
+Detroit Red Wings,20102011,17
+Nashville Predators,20102011,18
+Washington Capitals,20102011,15
+Philadelphia Flyers,20102011,4
+Pittsburgh Penguins,20102011,5
+Buffalo Sabres,20102011,7
+Montreal Canadiens,20102011,8
+Chicago Blackhawks,20102011,16
+Anaheim Ducks,20102011,24
+Los Angeles Kings,20102011,26
+New York Rangers,20102011,3
+Phoenix Coyotes,20102011,53
+Los Angeles Kings,20112012,26
+New Jersey Devils,20112012,1
+New York Rangers,20112012,3
+Phoenix Coyotes,20112012,53
+Washington Capitals,20112012,15
+Nashville Predators,20112012,18
+Philadelphia Flyers,20112012,4
+St. Louis Blues,20112012,19
+Florida Panthers,20112012,13
+Ottawa Senators,20112012,9
+Boston Bruins,20112012,6
+Pittsburgh Penguins,20112012,5
+Chicago Blackhawks,20112012,16
+Detroit Red Wings,20112012,17
+San Jose Sharks,20112012,28
+Vancouver Canucks,20112012,23
+Chicago Blackhawks,20122013,16
+Boston Bruins,20122013,6
+Los Angeles Kings,20122013,26
+Pittsburgh Penguins,20122013,5
+San Jose Sharks,20122013,28
+Detroit Red Wings,20122013,17
+Ottawa Senators,20122013,9
+New York Rangers,20122013,3
+Anaheim Ducks,20122013,24
+Washington Capitals,20122013,15
+Toronto Maple Leafs,20122013,10
+New York Islanders,20122013,2
+St. Louis Blues,20122013,19
+Minnesota Wild,20122013,30
+Montreal Canadiens,20122013,8
+Vancouver Canucks,20122013,23
+Los Angeles Kings,20132014,26
+New York Rangers,20132014,3
+Chicago Blackhawks,20132014,16
+Montreal Canadiens,20132014,8
+Boston Bruins,20132014,6
+Pittsburgh Penguins,20132014,5
+Anaheim Ducks,20132014,24
+Minnesota Wild,20132014,30
+San Jose Sharks,20132014,28
+Philadelphia Flyers,20132014,4
+Colorado Avalanche,20132014,21
+Columbus Blue Jackets,20132014,29
+Dallas Stars,20132014,25
+St. Louis Blues,20132014,19
+Detroit Red Wings,20132014,17
+Tampa Bay Lightning,20132014,14
+Chicago Blackhawks,20142015,16
+Tampa Bay Lightning,20142015,14
+Anaheim Ducks,20142015,24
+New York Rangers,20142015,3
+Washington Capitals,20142015,15
+Montreal Canadiens,20142015,8
+Calgary Flames,20142015,20
+Minnesota Wild,20142015,30
+Detroit Red Wings,20142015,17
+New York Islanders,20142015,2
+Nashville Predators,20142015,18
+Ottawa Senators,20142015,9
+St. Louis Blues,20142015,19
+Vancouver Canucks,20142015,23
+Pittsburgh Penguins,20142015,5
+Winnipeg Jets,20142015,52
+Pittsburgh Penguins,20152016,5
+San Jose Sharks,20152016,28
+Tampa Bay Lightning,20152016,14
+St. Louis Blues,20152016,19
+Dallas Stars,20152016,25
+Nashville Predators,20152016,18
+Washington Capitals,20152016,15
+New York Islanders,20152016,2
+Chicago Blackhawks,20152016,16
+Anaheim Ducks,20152016,24
+Philadelphia Flyers,20152016,4
+Florida Panthers,20152016,13
+Minnesota Wild,20152016,30
+Detroit Red Wings,20152016,17
+New York Rangers,20152016,3
+Los Angeles Kings,20152016,26
+Pittsburgh Penguins,20162017,5
+Nashville Predators,20162017,18
+Ottawa Senators,20162017,9
+Anaheim Ducks,20162017,24
+Edmonton Oilers,20162017,22
+Washington Capitals,20162017,15
+St. Louis Blues,20162017,19
+New York Rangers,20162017,3
+Montreal Canadiens,20162017,8
+San Jose Sharks,20162017,28
+Toronto Maple Leafs,20162017,10
+Boston Bruins,20162017,6
+Minnesota Wild,20162017,30
+Columbus Blue Jackets,20162017,29
+Chicago Blackhawks,20162017,16
+Calgary Flames,20162017,20
+Washington Capitals,20172018,15
+Vegas Golden Knights,20172018,54
+Tampa Bay Lightning,20172018,14
+Winnipeg Jets,20172018,52
+Nashville Predators,20172018,18
+San Jose Sharks,20172018,28
+Pittsburgh Penguins,20172018,5
+Boston Bruins,20172018,6
+Toronto Maple Leafs,20172018,10
+Philadelphia Flyers,20172018,4
+Columbus Blue Jackets,20172018,29
+Colorado Avalanche,20172018,21
+Minnesota Wild,20172018,30
+New Jersey Devils,20172018,1
+Los Angeles Kings,20172018,26
+Anaheim Ducks,20172018,24
+St. Louis Blues,20182019,19
+Boston Bruins,20182019,6
+San Jose Sharks,20182019,28
+Carolina Hurricanes,20182019,12
+Colorado Avalanche,20182019,21
+Dallas Stars,20182019,25
+Columbus Blue Jackets,20182019,29
+New York Islanders,20182019,2
+Washington Capitals,20182019,15
+Toronto Maple Leafs,20182019,10
+Vegas Golden Knights,20182019,54
+Nashville Predators,20182019,18
+Winnipeg Jets,20182019,52
+Calgary Flames,20182019,20
+Pittsburgh Penguins,20182019,5
+Tampa Bay Lightning,20182019,14
+2020-08-02,20192020,100
+@ Toronto,20192020,100
+Philadelphia,20192020,100
+Boston,20192020,100
+2020-08-03,20192020,100
+@ Toronto,20192020,100
+Tampa Bay,20192020,100
+Washington,20192020,100
+2020-08-05,20192020,100
+@ Toronto,20192020,100
+Tampa Bay,20192020,100
+Boston,20192020,100
+2020-08-06,20192020,100
+@ Toronto,20192020,100
+Philadelphia,20192020,100
+Washington,20192020,100
+Tampa Bay Lightning,20202021,14
+Montreal Canadiens,20202021,8
+New York Islanders,20202021,2
+Vegas Golden Knights,20202021,54
+Colorado Avalanche,20202021,21
+Boston Bruins,20202021,6
+Carolina Hurricanes,20202021,12
+Winnipeg Jets,20202021,52
+Toronto Maple Leafs,20202021,10
+Minnesota Wild,20202021,30
+Florida Panthers,20202021,13
+Nashville Predators,20202021,18
+Pittsburgh Penguins,20202021,5
+Washington Capitals,20202021,15
+Edmonton Oilers,20202021,22
+St. Louis Blues,20202021,19
