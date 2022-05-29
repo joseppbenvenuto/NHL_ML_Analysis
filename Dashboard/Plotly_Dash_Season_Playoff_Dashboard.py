@@ -355,14 +355,9 @@ def compute(n_clicks, input1, input2, input3, input4, input5):
 
     # Scale predictions
     y_pred_r_scaled = scaler_logi.transform(y_pred_r)
-    # Predict with predAboveAvgAdjWins
-    y_pred_l = model_l.predict(y_pred_r_scaled)
-    
-    # Create a data frame from the predicted results
-    y_pred_l = pd.DataFrame(y_pred_l, columns = ['predictions'])
     
     # Creates a data frame from the prediction probabilities
-    proba = model_l.predict_proba(y_pred_r)
+    proba = model_l.predict_proba(y_pred_r_scaled)
     proba = pd.DataFrame(proba, columns = ['0', 'predicted_proba'])
     proba['predicted_proba_making_playoffs'] = (1 - proba['predicted_proba']) * 100
     proba = proba[['predicted_proba_making_playoffs']]
