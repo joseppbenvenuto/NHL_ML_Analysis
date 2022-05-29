@@ -106,7 +106,7 @@ app.layout = html.Div([
                                 placeholder = question2,
                                 type = "number"
                             )
-                            # Row styling
+                        # Row styling
                         ], style = {
                             'padding-bottom': 10,
                             'padding-left': 10,
@@ -120,7 +120,7 @@ app.layout = html.Div([
                                 placeholder = question3,
                                 type = "number"
                             )
-                            # Row styling
+                        # Row styling
                         ], style = {
                             'padding-bottom': 10,
                             'padding-left': 10,
@@ -134,7 +134,7 @@ app.layout = html.Div([
                                 placeholder = question4,
                                 type = "number"
                             )
-                            # Row styling
+                        # Row styling
                         ], style = {
                                 'padding-bottom': 10,
                                 'padding-left': 10,
@@ -148,7 +148,7 @@ app.layout = html.Div([
                                 placeholder = question5,
                                 type = "number"
                             )
-                            # Row styling
+                        # Row styling
                         ], style = {
                                 'padding-bottom': 10,
                                 'padding-left': 10,
@@ -161,7 +161,7 @@ app.layout = html.Div([
                                 'Submit',
                                 id = 'submit-val'
                             )
-                            # Row styling
+                        # Row styling
                         ], style = {
                             'padding-top': 20,
                             'padding-left': 10,
@@ -198,7 +198,7 @@ app.layout = html.Div([
                         color = "dark",
                         outline = True
                     )
-                    # Row styling
+                # Row styling
                 ], style = {'padding-bottom': 10,
                             'padding-right': 20
                            }),
@@ -213,7 +213,7 @@ app.layout = html.Div([
                         color = "dark", 
                         outline = True
                     )
-                    # Row styling
+                # Row styling
                 ], style = {
                     'padding-right': 20
                 })
@@ -222,7 +222,7 @@ app.layout = html.Div([
                 "order": 2
             })
         ])
-        # Div styling
+    # Div styling
     ], style = {
         'padding-left': 20,
         'padding-right': 20,
@@ -286,7 +286,7 @@ app.layout = html.Div([
                     'textAlign':'center'
                 })
     ])
-    # Dive styling
+# Dive styling
 ], style = {
     'margin':0
 })
