@@ -153,6 +153,3 @@ cython_debug/
 
 # Excel nhl_db documentation
 NHL_DB_Documentation.xlsm
-
-# Tableau NHL Stats Dashboard
-NHL_Stats_Dashboard.twbx
