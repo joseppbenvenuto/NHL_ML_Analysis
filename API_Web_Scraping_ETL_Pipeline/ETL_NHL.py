@@ -32,7 +32,7 @@ def process_data(start_date, end_date):
     '''
     # Import NHL team season stats data frame
     # Get file dynamically on any windows machine
-    path = r'C:\**\NHL_Linear_Regression_Logistic_Regression_Analysis-master\API_Web_Scraping_ETL_Pipeline\Data'
+    path = r'C:\**\API_Web_Scraping_ETL_Pipeline\Data'
     path = glob.glob(path, recursive = True)
     path = path[0]
 
