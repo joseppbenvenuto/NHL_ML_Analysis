@@ -1,4 +1,4 @@
-goals_per_game,goals_against_per_game,power_play_percentage,penalty_kill_percentage,shots_per_game,shots_allowed,shooting_pctg,save_pctg,failed_shots_per_game,saves_per_game,ties,power_play_efficiency,aboveAvgAdjWins
+goals_per_game,goals_against_per_game,power_play_percentage,penalty_kill_percentage,shots_per_game,shots_allowed,shooting_pctg,save_pctg,failed_shots_per_game,saves_per_game,ties,power_play_efficiency,avgAdjWinsDev
 2.888,4.375,14.3,75.3,26.3875,32.0,10.9,86.3,23.5112625,27.616,7,-0.08539944903581267,-19.470588235294116
 4.463,3.363,22.5,81.5,30.275,33.3875,14.7,89.9,25.824575,30.015362500000002,4,-0.010714285714285714,12.029411764705884
 3.925,3.8,25.1,78.1,31.8875,31.55,12.3,88.0,27.9653375,27.764,9,-0.006779661016949152,6.529411764705884
