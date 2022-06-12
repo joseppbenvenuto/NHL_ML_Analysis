@@ -174,7 +174,7 @@ def num_bivariate_corr_target(df, target, threshold, font, length, width):
     fig, ax = plt.subplots()
     fig.set_size_inches(width, length)
     sns.heatmap(X_corr)
-    plt.title('corrolation matrix')
+    plt.title('correlation matrix')
     plt.show()
 
     display(X_corr)
