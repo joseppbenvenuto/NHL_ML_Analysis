@@ -12,13 +12,13 @@ The entirety of the analysis sought to understand the statistical economics of w
 
 By understanding the economics of what holds teams back from making playoffs, teams can gain more transparency and perspective on what works with strategy and achieving successful campaigns in mind.
 
-Achieving successful campaigns can potentially lead to increased revenue for all stakeholders through ticket sales, salary increases, endorsement deals, the fair book value of the organization, greater economic activity for the represented city, etc.
+Achieving successful campaigns can potentially lead to increased revenue for all stakeholders through ticket sales, salary increases, endorsement deals, the fair book value of the organization, greater economic activity for the represented city, etc.<br><br>
 
 ## Methods Used
 
 1) Descriptive Statistics - used for preliminary data exploration.
 2) Multiple Linear Regression - Predict season outcomes (adjusted wins a team won (wins + (ties / 2)) / mean adjusted wins).
-3) Logistic Regression - Used predicted season outcomes to predict playoff outcomes.
+3) Logistic Regression - Used predicted season outcomes to predict playoff outcomes.<br><br>
 
 ## Predictions Dashboard
 
