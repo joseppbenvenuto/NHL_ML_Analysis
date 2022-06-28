@@ -26,25 +26,25 @@ Achieving successful campaigns can potentially lead to increased revenue for all
 
 * Deployed to Heroku here: https://nhl-dash-app.herokuapp.com/<br><br>
 
-![](ReadMe_Images/Dash2.png)
+![](ReadMe_Images/Dash2.png)<br><br>
 
 ## Exploratory Dashboard
 
 * Deployed to Heroku here: https://public.tableau.com/app/profile/josepp8009/viz/NHL_Stats_Dashboard/NHLStatsDashboard<br><br>
 
-![](ReadMe_Images/Tableau.png)
+![](ReadMe_Images/Tableau.png)<br><br>
 
 ## Presentation Deck
 
 * Deployed here: https://1drv.ms/p/s!Aq0DLMt0IS3zgnZOju4z9H5Gz3Yb?e=beWNGZ<br><br>
 
-![](ReadMe_Images/Deck.png)
+![](ReadMe_Images/Deck.png)<br><br>
 
 ## NNHL Database Documentation Dashboard (open on desktop for macro functionality)
 
 * Deployed here: https://1drv.ms/x/s!Aq0DLMt0IS3zgneW6LwCXfqNrkkY?e=h4iwKY<br><br>
 
-![](ReadMe_Images/NHLDB_Doc.png)
+![](ReadMe_Images/NHLDB_Doc.png)<br><br>
 
 ## Technologies 
 
