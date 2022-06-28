@@ -32,11 +32,16 @@ Achieving successful campaigns can potentially lead to increased revenue for all
 * Deployed here: https://1drv.ms/p/s!Aq0DLMt0IS3zgnZOju4z9H5Gz3Yb?e=beWNGZ
 ![](ReadMe_Images/Deck.png)
 
+## NHL Database Documentation Dashboard (please open on desktop app for macro functionality)
+
+* Deployed here: https://1drv.ms/x/s!Aq0DLMt0IS3zgneW6LwCXfqNrkkY?e=h4iwKY
+![](ReadMe_Images/NHLDB_Doc.png)
+
 ## Technologies 
 
 1) Python 
-2) R
-3) Jupyter Notebook
-4) Anaconda Environment
+2) Jupyter Notebook
+3) Tableau
+4) Microsoft Excel
 5) Microsoft PowerPoint
 
