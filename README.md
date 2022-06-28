@@ -20,13 +20,18 @@ Achieving successful campaigns can potentially lead to increased revenue for all
 2) Multiple Linear Regression - Predict season outcomes (adjusted wins a team won (wins + (ties / 2)) / mean adjusted wins).
 3) Logistic Regression - Used predicted season outcomes to predict playoff outcomes.
 
-## Dashboard
+## Predictions Dashboard
 
 <p><strong>App User Name:</strong> data<br> <strong>App Password:</strong> analyst <br><strong>Note -</strong> the dashboard takes a few seconds to load</p>
 
 * Deployed to Heroku here: https://nhl-dash-app.herokuapp.com/<br><br>
 
 ![](ReadMe_Images/Dash2.png)
+
+## Exploratory Dashboard
+
+* Deployed to Heroku here: https://public.tableau.com/app/profile/josepp8009/viz/NHL_Stats_Dashboard/NHLStatsDashboard
+![](ReadMe_Images/Tableau.png)
 
 ## Presentation Deck
 
