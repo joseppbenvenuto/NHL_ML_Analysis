@@ -180,7 +180,7 @@ app.layout = html.Div([
                     "order": 1
                 }),
             
-            # Above Average Adjusted Wins prediction
+            # Season Adjusted Wins Deviation prediction
             dbc.Col([
                 dbc.Row([
                     dbc.Card(
@@ -260,7 +260,7 @@ app.layout = html.Div([
                 
                 * **Penalty Kill Percentage** - Total Successful Penalty Kills / Total Penalty Kills
                 
-                * **Above Average Adjusted Wins** - (Total Team Wins + (Total Team Ties / 2)) - ((Total League Wins + (Total League Ties / 2)) / Total Number of Teams)
+                * **Season Adjusted Wins Deviation** - (Total Team Wins + (Total Team Ties / 2)) - ((Total League Wins + (Total League Ties / 2)) / Total Number of Teams)
                 ''')
             ),
             # div styling
@@ -321,7 +321,7 @@ def compute(n_clicks, input1, input2, input3, input4, input5):
         input5 = 84.40
         
     # Create data frame form input values
-    X = [{
+    X_dict = [{
         'penalty_kill_percentage': input5,
         'shooting_pctg': input3,
         'save_pctg': input1,
@@ -329,7 +329,7 @@ def compute(n_clicks, input1, input2, input3, input4, input5):
         'saves_per_game': input2
     }]
     
-    X = pd.DataFrame(X)
+    X_df = pd.DataFrame(X_dict)
     
     # Linear regression
     #############################################################################################
@@ -339,12 +339,12 @@ def compute(n_clicks, input1, input2, input3, input4, input5):
     scaler_lin = load(open('Models/Scaler_Lin.pkl', 'rb'))
     
     # Scale X values (converts X values to numpy 2D array)
-    X = scaler_lin.transform(X)
+    X = scaler_lin.transform(X_df)
     # Predict aboveMeanAdjWins with input values
     y_pred_r = model_r.predict(X)
     
     # Create data frame with predicted aboveMeanAdjWins values
-    y_pred_r = pd.DataFrame(y_pred_r, columns = ['aboveAvgAdjWins'])
+    y_pred_r = pd.DataFrame(y_pred_r, columns = ['seasonAdjWinsDev'])
     
     # Logistic regression
     #############################################################################################
@@ -353,11 +353,17 @@ def compute(n_clicks, input1, input2, input3, input4, input5):
     # load the model
     scaler_logi = load(open('Models/Scaler_Logi.pkl', 'rb'))
 
-    # Scale predictions
-    y_pred_r_scaled = scaler_logi.transform(y_pred_r)
+    # Scale X values (converts X values to numpy 2D array)
+    X = X_df.drop(
+        ['penalty_kill_percentage'],
+        axis = 1,
+        errors = 'ignore'
+    )
+    
+    X = scaler_logi.transform(X)
     
     # Creates a data frame from the prediction probabilities
-    proba = model_l.predict_proba(y_pred_r_scaled)
+    proba = model_l.predict_proba(X)
     proba = pd.DataFrame(proba, columns = ['0', 'predicted_proba'])
     proba['predicted_proba_making_playoffs'] = (1 - proba['predicted_proba']) * 100
     proba = proba[['predicted_proba_making_playoffs']]
@@ -396,7 +402,7 @@ def compute(n_clicks, input1, input2, input3, input4, input5):
                    )
     
     # predAboveMeanAdjWins prediction via string
-    pred_above_mean_adj_wins = "Predicted Above Average Adjusted Wins: " + str(round(results.iloc[0,0],2))
+    pred_above_mean_adj_wins = "Predicted Season Adjusted Wins Deviation: " + str(round(results.iloc[0,0],2))
 
     return pred_above_mean_adj_wins, fig
 

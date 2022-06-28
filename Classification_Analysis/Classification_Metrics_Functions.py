@@ -316,7 +316,7 @@ def cap_auc(model, df, target, y, y_pred, y_score, X, length, width, ks, text, f
         ('Recall (tp / (tp + fn)):', recall),
         ('F1 ((2 * (precision * recall)) / (precision + recall)):', f1),
         ('False Positive Rate (fp / (fp + tn))', false_positive_rate),
-        ('True Positive Rate ((tp / (tp + fn)):', true_positive_rate),
+        ('True Positive Rate (tp / (tp + fn)):', true_positive_rate),
         ('Increase in TPR / FPR (true_positive_rate / false_positive_rate):', percent_of_increase_per_unit)
     ]
     
