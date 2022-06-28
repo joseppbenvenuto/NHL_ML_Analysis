@@ -32,9 +32,10 @@ Achieving successful campaigns can potentially lead to increased revenue for all
 * Deployed here: https://1drv.ms/p/s!Aq0DLMt0IS3zgnZOju4z9H5Gz3Yb?e=beWNGZ
 ![](ReadMe_Images/Deck.png)
 
-## NHL Database Documentation Dashboard (open on desktop for macro functionality)<br><br>
+## NHL Database Documentation Dashboard (open on desktop for macro functionality)
 
-* Deployed here: https://1drv.ms/x/s!Aq0DLMt0IS3zgneW6LwCXfqNrkkY?e=h4iwKY
+* Deployed here: https://1drv.ms/x/s!Aq0DLMt0IS3zgneW6LwCXfqNrkkY?e=h4iwKY<br><br>
+
 ![](ReadMe_Images/NHLDB_Doc.png)
 
 ## Technologies 
