@@ -30,7 +30,8 @@ Achieving successful campaigns can potentially lead to increased revenue for all
 
 ## Exploratory Dashboard
 
-* Deployed to Heroku here: https://public.tableau.com/app/profile/josepp8009/viz/NHL_Stats_Dashboard/NHLStatsDashboard
+* Deployed to Heroku here: https://public.tableau.com/app/profile/josepp8009/viz/NHL_Stats_Dashboard/NHLStatsDashboard<br><br>
+
 ![](ReadMe_Images/Tableau.png)
 
 ## Presentation Deck
