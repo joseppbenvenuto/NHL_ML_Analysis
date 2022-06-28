@@ -24,12 +24,14 @@ Achieving successful campaigns can potentially lead to increased revenue for all
 
 <p><strong>App User Name:</strong> data<br> <strong>App Password:</strong> analyst <br><strong>Note -</strong> the dashboard takes a few seconds to load</p>
 
-* Deployed to Heroku here: https://nhl-dash-app.herokuapp.com/
+* Deployed to Heroku here: https://nhl-dash-app.herokuapp.com/<br><br>
+
 ![](ReadMe_Images/Dash2.png)
 
 ## Presentation Deck
 
-* Deployed here: https://1drv.ms/p/s!Aq0DLMt0IS3zgnZOju4z9H5Gz3Yb?e=beWNGZ
+* Deployed here: https://1drv.ms/p/s!Aq0DLMt0IS3zgnZOju4z9H5Gz3Yb?e=beWNGZ<br><br>
+
 ![](ReadMe_Images/Deck.png)
 
 ## NHL Database Documentation Dashboard (open on desktop for macro functionality)
