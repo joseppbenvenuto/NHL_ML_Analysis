@@ -1,6 +1,6 @@
 # NHL Linear & Logistic Regression Analysis
 
-<br><br>## Project Description
+<br><br> ## Project Description
 
 The analysis explored NHL team season data (url: https://www.kevinsidwar.com/iot/2017/7/1/the-undocumented-nhl-stats-api) from 1983 - 2020 to predict season and playoff outcomes (url: https://en.wikipedia.org/wiki/List_of_NHL_playoff_series).
 
