@@ -1,6 +1,6 @@
 # NHL Linear & Logistic Regression Analysis
 
-<br><br>
+
 
 ## Project Description
 
