@@ -148,7 +148,7 @@ def process_data(start_date, end_date):
     # Create unique id for season_year_range
     nhl_full_df['team_id'] = 'y - ' + nhl_full_df['id'].astype(str)
 
-    print('Processed full data.')
+    print('Processed full data')
 
     return nhl_full_df
 
@@ -164,7 +164,7 @@ def process_teams_data(nhl_full_df):
     '''
     teams_df = nhl_full_df[['team_id','team' ]]
     teams_df = teams_df.drop_duplicates(subset = ['team_id'], keep = 'first').reset_index(drop = True)
-    print('Processed teams data.')
+    print('Processed teams data')
 
     return teams_df
 
@@ -176,7 +176,7 @@ def process_time_data(nhl_full_df):
     '''
     time_df = nhl_full_df[[ 'season_year_range_id', 'season_year_range']]
     time_df = time_df.drop_duplicates(subset = ['season_year_range_id'], keep = 'first').reset_index(drop = True)
-    print('Processed time data.')
+    print('Processed time data')
 
     return time_df
 
@@ -226,7 +226,7 @@ def process_season_stats_data(nhl_full_df):
          'adjWins'
     ]]
 
-    print('Processed season stats data.')
+    print('Processed season stats data')
 
     return season_stats_df
 
@@ -249,13 +249,13 @@ def insert_teams_data(teams_df, conn, cur):
 
             count += 1
 
-            print('Teams data inserted line-by-line into nhldb successfully ' + str(count) + '.')
+            print(' '.join(['Teams data inserted line-by-line into nhldb successfully', str(count)]))
 
     except ps.Error as e:
         print('\n Error:')
         print(e)
 
-    print('Columns inserted: ' + str(teams_df.shape[1]))
+    print(' '.join(['Columns inserted:', str(teams_df.shape[1])]))
 
 
 # Insert data line by line for conflict conditions
@@ -271,13 +271,13 @@ def insert_time_data(time_df, conn, cur):
 
             count += 1
 
-            print('Time data inserted line-by-line into nhldb successfully ' + str(count) + '.')
+            print(' '.join(['Time data inserted line-by-line into nhldb successfully', str(count)]))
 
     except ps.Error as e:
         print('\n Error:')
         print(e)
 
-    print('Columns inserted: ' + str(time_df.shape[1]))
+    print(' '.join(['Columns inserted:', str(time_df.shape[1])]))
 
 
 # Insert data line by line for conflict conditions
@@ -293,13 +293,13 @@ def insert_seasoon_stats_data(season_stats_df, conn, cur):
 
             count += 1
 
-            print('Season stats data inserted line-by-line into nhldb successfully ' + str(count) + '.')
+            print(' '.join(['Season stats data inserted line-by-line into nhldb successfully', str(count)]))
 
     except ps.Error as e:
         print('\n Error:')
         print(e)
 
-    print('Columns inserted: ' + str(season_stats_df.shape[1]))
+    print(' '.join(['Columns inserted:', str(season_stats_df.shape[1])]))
 
 
 ###########################################################################################################################################
@@ -314,14 +314,15 @@ def etl():
     # Connect to database
     try:
 
-        conn = ps.connect('''host=localhost
-                             dbname=nhldb
-                             user=postgres
-                             password=iEchu133
-                             ''')
+        conn = ps.connect('''
+            host=localhost
+            dbname=nhldb
+            user=postgres
+            password=iEchu133
+        ''')
         cur = conn.cursor()
 
-        print('Successfully connected to nhldb.')
+        print('Successfully connected to nhldb')
 
     except ps.Error as e:
         print('\n Database Error:')
@@ -336,23 +337,23 @@ def etl():
 
         try:
             start_date = int(input("What NHL season do you want the data pull to start from, e.g., 1982? "))
-            end_date = int(input( "What NHL season do you want the data pull to end with, e.g., " + str(valid_year_less) + "? "))
+            end_date = int(input(' '.join(["What NHL season do you want the data pull to end with, e.g.,", str(valid_year_less), "? "])))
 
         except ValueError:
-            print("Please select a valid start and end date, e.g., less than or equal to " + str(valid_year_less))
-            print("or greater than or equal to " + str(valid_year_greater) + ".")
+            print(' '.join(["Please select a valid start and end date, e.g., less than or equal to", str(valid_year_less)]))
+            print(' '.join(["or greater than or equal to", str(valid_year_greater)]))
 
         if end_date > valid_year_less or start_date < valid_year_greater:
-            print("Please select a valid start and end date, e.g., less than or equal to " + str(valid_year_less))
-            print("or greater than or equal to " + str(valid_year_greater) + ".")
+            print(' '.join(["Please select a valid start and end date, e.g., less than or equal to", str(valid_year_less)]))
+            print(' '.join(["or greater than or equal to", str(valid_year_greater)]))
 
         elif end_date < valid_year_greater or start_date > valid_year_less:
-            print("Please select a valid start and end date, e.g., less than or equal to " + str(valid_year_less))
-            print("or greater than or equal to " + str(valid_year_greater) + ".")
+            print(' '.join(["Please select a valid start and end date, e.g., less than or equal to", str(valid_year_less)]))
+            print(' '.join(["or greater than or equal to", str(valid_year_greater)]))
 
         elif end_date < start_date:
-            print("Please select a valid start and end date, e.g., less than or equal to " + str(valid_year_less))
-            print("or greater than or equal to " + str(valid_year_greater) + ".")
+            print(' '.join(["Please select a valid start and end date, e.g., less than or equal to", str(valid_year_less)]))
+            print(' '.join(["or greater than or equal to", str(valid_year_greater)]))
 
         else:
             break

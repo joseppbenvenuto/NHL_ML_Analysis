@@ -132,7 +132,7 @@ def nhl_table_multiple_seasons(year1_range, max_year, nhl_id_all, nhl_id, nhl_st
         year2 += 1
         request += 1
         year_range = '{}{}'.format(year1, year2)
-        print('Season: ', year1, year2, index, year_range)
+        print(' '.join(['Season:', year1, year2, index, year_range]))
         
         stats = nhl_season_stats(
             year = year_range, 
@@ -167,7 +167,7 @@ def get_payoff_teams(year1, year2):
     for year in range(year1, year2 + 1):
         url = 'https://www.hockey-reference.com/playoffs/NHL_{}.html'.format(year)
 
-        print('year range: ' + str(year - 1) + str(year))
+        print(' '.join(['year range: ', str(year - 1) + str(year)]))
 
         response = requests.get(url)
         soup = bs( response.text, 'html.parser')
@@ -176,7 +176,7 @@ def get_payoff_teams(year1, year2):
         team = soup.select('.table_wrapper > .table_container > table > tbody > tr > .left')
         team = [x.get_text().strip() for x in team]
         teams = team[0:16]
-        print('number of playoff teams: ' + str(len(teams)))
+        print(' '.join(['number of playoff teams: ', str(len(teams))]))
         
         full_year_range = [str(year - 1) + str(year)] * 16
         playoff_teams_dict = {
@@ -329,24 +329,24 @@ def get_nhl_data():
     while True:
 
         try:
-            start_date = int(input("What NHL season do you want the data pull to start from, e.g., 1982? "))
-            end_date = int(input( "What NHL season do you want the data pull to end with, e.g., " + str(valid_year_less) + "? "))
+            start_date = int(input("What NHL season do you want the data pull to start from, e.g., 1982 ? "))
+            end_date = int(input(' '.join(["What NHL season do you want the data pull to end with, e.g.,", str(valid_year_less), "?"])))
 
         except ValueError:
-            print("Please select a valid start and end date, e.g., less than or equal to " + str(valid_year_less))
-            print("or greater than or equal to " + str(valid_year_greater) + ".")
+            print(' '.join(["Please select a valid start and end date, e.g., less than or equal to", str(valid_year_less)]))
+            print(' '.join(["or greater than or equal to", str(valid_year_greater)]))
 
         if end_date > valid_year_less or start_date < valid_year_greater:
-            print("Please select a valid start and end date, e.g., less than or equal to " + str(valid_year_less))
-            print("or greater than or equal to " + str(valid_year_greater) + ".")
+            print(' '.join(["Please select a valid start and end date, e.g., less than or equal to" + str(valid_year_less)]))
+            print(' '.join(["or greater than or equal to", str(valid_year_greater)]))
 
         elif end_date < valid_year_greater or start_date > valid_year_less:
-            print("Please select a valid start and end date, e.g., less than or equal to " + str(valid_year_less))
-            print("or greater than or equal to " + str(valid_year_greater) + ".")
+            print(' '.join(["Please select a valid start and end date, e.g., less than or equal to" + str(valid_year_less)]))
+            print(' '.join(["or greater than or equal to", str(valid_year_greater)]))
 
         elif end_date < start_date:
-            print("Please select a valid start and end date, e.g., less than or equal to " + str(valid_year_less))
-            print("or greater than or equal to " + str(valid_year_greater) + ".")
+            print(' '.join(["Please select a valid start and end date, e.g., less than or equal to", str(valid_year_less)]))
+            print(' '.join(["or greater than or equal to", str(valid_year_greater)]))
 
         else:
             break
@@ -357,7 +357,7 @@ def get_nhl_data():
     nhl_playoff_df = get_payoff_teams(year1 = start_date,year2 = end_date)
 
     # Export data frame to project directory
-    file = 'Data/' + str(start_date) + '_' + str(end_date) + '_' + '_NHL_Playoff_Data.csv'
+    file = ''.join(['Data/', str(start_date), '_', str(end_date), '_', '_NHL_Playoff_Data.csv'])
     nhl_playoff_df.to_csv(
         file,
         sep = ',',
@@ -368,7 +368,7 @@ def get_nhl_data():
     print('getting season data')
 
     # Run all functions and create season stats data
-    start_range = str(start_date) + "," + str(start_date + 1)
+    start_range = ''.join([str(start_date), ",", str(start_date + 1)])
 
     nhl_df = nhl_table_multiple_seasons(
         year1_range = start_range,
@@ -381,7 +381,7 @@ def get_nhl_data():
 
 
     # Export data frame to project directory
-    file = 'Data/' + str(start_date) + '_' + str(end_date) + '_' + '_NHL_Season_Data.csv'
+    file = ''.join(['Data/', str(start_date), '_', str(end_date), '_', '_NHL_Season_Data.csv'])
     nhl_df.to_csv(
         file,
         sep = ',',

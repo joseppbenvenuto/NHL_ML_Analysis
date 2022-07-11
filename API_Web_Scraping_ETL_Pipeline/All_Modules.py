@@ -30,17 +30,17 @@ def main():
             - Warnagle and store NHL season and playoff data to data storage directories via CSV
             '''
             get_nhl_data()
-            input("Press enter to continue to Module 2 or Ctrl C to end the program.")
+            input("Press enter to continue to Module 2 or Ctrl C to end the program")
         except Exception as e:
             print(e)
-            input("Please check the noted error above and decide to press enter and continue to Module 2 or Ctrl C to end the program.")
+            input("Please check the noted error above and decide to press enter and continue to Module 2 or Ctrl C to end the program")
 
     elif input_1 in noChoice:
-        print('You have skipped Module 1.')
+        print('You have skipped Module 1')
         pass
 
     else:
-        input('You have entered an incorrect response, please press enter to end the program.')
+        input('You have entered an incorrect response, please press enter to end the program')
         sys.exit()
 
 
@@ -50,7 +50,7 @@ def main():
 
     print('''
     Module 2:
-    Runs the ETL pipline to store the NHL season and playoff data in PostgreSQL database (nhldb).
+    Runs the ETL pipline to store the NHL season and playoff data in PostgreSQL database (nhldb)
     ''')
 
     string = "Would you like to run the ETL Module? ['yes','y'] or ['no','n']"
@@ -64,18 +64,18 @@ def main():
             - Run mc report ETL to nhldb
             '''
             etl()
-            input("ETL Module complete, please press enter or Ctrl C to end the program.")
+            input("ETL Module complete, please press enter or Ctrl C to end the program")
         except Exception as e:
             print(e)
-            input("Please check the noted error above.")
+            input("Please check the noted error above")
 
     elif input_2 in noChoice:
-        print('You have skipped the ETL Module.')
-        print('Program complete.')
+        print('You have skipped the ETL Module')
+        print('Program complete')
         pass
 
     else:
-        input('You have entered an incorrect response, please press enter to end the program.')
+        input('You have entered an incorrect response, please press enter to end the program')
         sys.exit()
         
         
