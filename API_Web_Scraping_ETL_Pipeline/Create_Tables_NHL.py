@@ -12,11 +12,12 @@ def create_database():
     """
 
     # connect to default database port: 5432
-    conn = ps.connect('''host=localhost
-                         dbname=postgres
-                         user=postgres
-                         password=iEchu133
-                         ''')
+    conn = ps.connect(
+        '''host=localhost
+           dbname=postgres
+           user=postgres
+           password=iEchu133'''
+    )
 
     conn.set_session(autocommit = True)
     cur = conn.cursor()
@@ -29,11 +30,12 @@ def create_database():
     conn.close()
 
     # connect to MailChimpdb database
-    conn = ps.connect('''host=localhost
-                         dbname=nhldb
-                         user=postgres
-                         password=iEchu133
-                         ''')
+    conn = ps.connect(
+        '''host=localhost
+           dbname=postgres
+           user=postgres
+           password=iEchu133'''
+    )
 
     cur = conn.cursor()
 

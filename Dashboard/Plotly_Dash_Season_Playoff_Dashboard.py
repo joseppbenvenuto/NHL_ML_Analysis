@@ -78,12 +78,14 @@ app.layout = html.Div([
             dbc.Col(
                 dbc.Card(
                     html.Div([
-                        html.H3("Season & Playoff Predictions Form",
-                                # Font styling
-                                style = {
-                                    'padding-bottom': 69.5,
-                                    'padding-top': 10
-                                }),
+                        html.H3(
+                            "Season & Playoff Predictions Form",
+                            # Font styling
+                            style = {
+                                'padding-bottom': 69.5,
+                                'padding-top': 10
+                            }
+                        ),
                         
                         # Question 1
                         dbc.Row([
@@ -91,13 +93,17 @@ app.layout = html.Div([
                                 id = "input1",
                                 placeholder = question1,
                                 type = "number"
+                            
                             )
+                        ], 
+                            
                             # Row styling
-                        ], style = {
+                            style = {
                             'padding-bottom': 10,
                             'padding-left': 10,
                             'padding-right': 10
-                        }),
+                            }
+                        ),
                         
                         # Question 2
                         dbc.Row([
@@ -106,12 +112,15 @@ app.layout = html.Div([
                                 placeholder = question2,
                                 type = "number"
                             )
-                        # Row styling
-                        ], style = {
+                        ], 
+                            
+                            # Row styling
+                            style = {
                             'padding-bottom': 10,
                             'padding-left': 10,
                             'padding-right': 10
-                        }),
+                            }
+                        ),
                         
                         # Question 3
                         dbc.Row([
@@ -120,12 +129,15 @@ app.layout = html.Div([
                                 placeholder = question3,
                                 type = "number"
                             )
-                        # Row styling
-                        ], style = {
+                        ],
+                            
+                            # Row styling
+                            style = {
                             'padding-bottom': 10,
                             'padding-left': 10,
                             'padding-right': 10
-                        }),
+                            }
+                        ),
                         
                         # Question 4
                         dbc.Row([
@@ -134,12 +146,15 @@ app.layout = html.Div([
                                 placeholder = question4,
                                 type = "number"
                             )
-                        # Row styling
-                        ], style = {
+                        ], 
+    
+                            # Row styling
+                            style = {
                                 'padding-bottom': 10,
                                 'padding-left': 10,
                                 'padding-right': 10
-                            }),
+                            }
+                        ),
                         
                         # Question 5
                         dbc.Row([
@@ -148,12 +163,15 @@ app.layout = html.Div([
                                 placeholder = question5,
                                 type = "number"
                             )
-                        # Row styling
-                        ], style = {
+                        ], 
+                            
+                            # Row styling
+                            style = {
                                 'padding-bottom': 10,
                                 'padding-left': 10,
                                 'padding-right': 10
-                            }),
+                            }
+                        ),
                         
                         # Submit button
                         dbc.Row([
@@ -161,15 +179,19 @@ app.layout = html.Div([
                                 'Submit',
                                 id = 'submit-val'
                             )
-                        # Row styling
-                        ], style = {
-                            'padding-top': 20,
-                            'padding-left': 10,
-                            'padding-right': 10,
-                            'padding-bottom': 73
-                        })
+                        ], 
+                            
+                            # Row styling
+                            style = {
+                                'padding-top': 20,
+                                'padding-left': 10,
+                                'padding-right': 10,
+                                'padding-bottom': 73
+                            }
+                        )
                         
                     ]), 
+                    
                     body = True,
                     color = "dark",
                     outline = True
@@ -178,7 +200,8 @@ app.layout = html.Div([
                 width = {
                     "size": 5,
                     "order": 1
-                }),
+                }
+            ),
             
             # Season Adjusted Wins Deviation prediction
             dbc.Col([
@@ -193,15 +216,21 @@ app.layout = html.Div([
                                 'font-family': 'Arial, Helvetica, sans-serif',
                                 'color': 'black',
                                 'textAlign': 'center'
-                            }),
+                            }
+                        ),
+                        
                         body = True,
                         color = "dark",
                         outline = True
                     )
-                # Row styling
-                ], style = {'padding-bottom': 10,
-                            'padding-right': 20
-                           }),
+                ], 
+                    
+                    # Row styling
+                    style = {
+                        'padding-bottom': 10,
+                        'padding-right': 20
+                    }
+                ),
                 
                 # Gauge
                 dbc.Row([
@@ -209,26 +238,36 @@ app.layout = html.Div([
                         dcc.Graph(
                             id = 'gauge'
                         ),
+                        
                         body = True, 
                         color = "dark", 
                         outline = True
                     )
-                # Row styling
-                ], style = {
-                    'padding-right': 20
-                })
-            ],width = {
-                "size": 7,
-                "order": 2
-            })
-        ])
-    # Div styling
-    ], style = {
-        'padding-left': 20,
-        'padding-right': 20,
-        'padding-top': 40,
-        'padding-bottom': 40
-    }),
+                ], 
+                    
+                    # Row styling
+                    style = {
+                        'padding-right': 20
+                    }
+                )
+            ],
+                
+                width = {
+                    "size": 7,
+                    "order": 2
+                }
+            )
+        ])  
+    ], 
+        
+        # Div styling
+        style = {
+            'padding-left': 20,
+            'padding-right': 20,
+            'padding-top': 40,
+            'padding-bottom': 40
+        }
+    ),
     
     # Instructions
     html.Div([
@@ -242,7 +281,8 @@ app.layout = html.Div([
                 'background':'#00008B',
                 'color':'#FFFFFF',
                 'textAlign':'center'
-            }),
+            }
+        ),
         
         html.Div(
             dcc.Markdown(
@@ -270,26 +310,32 @@ app.layout = html.Div([
                 'line-height':30,
                 'textAlign':'left',
                 'fontSize':20
-            })
+            }
+        )
     ]),
     
     # Final ending block
     html.Div([
-        html.H1('',
-                # Font/background styling
-                style = {
-                    'padding':30,
-                    'margin':0,
-                    'font-family':'Arial, Helvetica, sans-serif',
-                    'background':'#00008B',
-                    'color':'#FFFFFF',
-                    'textAlign':'center'
-                })
+        html.H1(
+            '',
+            # Font/background styling
+            style = {
+                'padding':30,
+                'margin':0,
+                'font-family':'Arial, Helvetica, sans-serif',
+                'background':'#00008B',
+                'color':'#FFFFFF',
+                'textAlign':'center'
+            }
+        )
     ])
-# Dive styling
-], style = {
-    'margin':0
-})
+], 
+    
+    # Dive styling
+    style = {
+        'margin':0
+    }
+)
 
 
 ######################################################################################################################
@@ -297,14 +343,16 @@ app.layout = html.Div([
 ######################################################################################################################
 
 # Return results function
-@app.callback(Output('games', 'children'),
-              Output('gauge', 'figure'),
-              Input('submit-val', 'n_clicks'),
-              State('input1', 'value'),
-              State('input2', 'value'),
-              State('input3', 'value'),
-              State('input4', 'value'),
-              State('input5', 'value'))
+@app.callback(
+    Output('games', 'children'),
+    Output('gauge', 'figure'),
+    Input('submit-val', 'n_clicks'),
+    State('input1', 'value'),
+    State('input2', 'value'),
+    State('input3', 'value'),
+    State('input4', 'value'),
+    State('input5', 'value')
+)
 
 def compute(n_clicks, input1, input2, input3, input4, input5):
     
@@ -393,7 +441,10 @@ def compute(n_clicks, input1, input2, input3, input4, input5):
                                             },
                                             'bar': {'color': colour},
                                             'threshold': {
-                                                'line': {'color': "black", 'width': 5},
+                                                'line': {
+                                                    'color': "black", 
+                                                    'width': 5
+                                                },
                                                 'thickness': 1,
                                                 'value': 50
                                             }
