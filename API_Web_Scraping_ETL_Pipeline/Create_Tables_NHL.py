@@ -13,28 +13,32 @@ def create_database():
 
     # connect to default database port: 5432
     conn = ps.connect('''
+    
         host=localhost
         dbname=postgres
         user=postgres
         password=iEchu133
+        
     ''')
 
     conn.set_session(autocommit = True)
     cur = conn.cursor()
 
-    # create MailChimpdb database with UTF8 encoding
+    # create nhldb database with UTF8 encoding
     cur.execute('DROP DATABASE IF EXISTS nhldb;')
     cur.execute("CREATE DATABASE nhldb WITH ENCODING 'utf8' TEMPLATE template0;")
 
     # close connection to default database
     conn.close()
 
-    # connect to MailChimpdb database
+    # connect to nhldb database
     conn = ps.connect('''
-        host=localhost
+    
+        host=nhldb
         dbname=postgres
         user=postgres
         password=iEchu133
+        
     ''')
 
     cur = conn.cursor()
@@ -80,9 +84,16 @@ def main():
     try:
         cur, conn = create_database()
 
-        drop_tables(cur, conn)
+        drop_tables(
+            cur = cur, 
+            conn = conn
+        )
         
-        create_tables(cur, conn)
+        create_tables(
+            cur = cur, 
+            conn = conn
+        )
+        
         print('Tables have been created: teams, time, and season_stats')
 
         conn.close()

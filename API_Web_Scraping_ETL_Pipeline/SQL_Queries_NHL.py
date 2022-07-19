@@ -15,22 +15,27 @@ season_stats_table_drop = "DROP TABLE IF EXISTS season_stats;"
 # CREATE TABLES
 # DIMENSION TABLES
 teams_table_create = ("""
+
     CREATE TABLE IF NOT EXISTS teams(
         team_id varchar NOT NULL PRIMARY KEY,
         team varchar NOT NULL
     );
+    
 """)
 
 
 time_table_create = ("""
+
     CREATE TABLE IF NOT EXISTS time(
         season_year_range_id varchar NOT NULL PRIMARY KEY,
         season_year_range int NOT NULL
     );
+    
 """)
 
 # FACT TABLE
 season_stats_table_create = ("""
+
     CREATE TABLE IF NOT EXISTS season_stats(
         season_stats_id varchar NOT NULL PRIMARY KEY,
         team_id varchar NOT NULL,
@@ -70,6 +75,7 @@ season_stats_table_create = ("""
         made_playoffs int NOT NULL,
         adjWins float NOT NULL
     );
+    
 """)
 
 
@@ -81,6 +87,7 @@ season_stats_table_create = ("""
 teams_table_col_num = 2
 teams_table_variables = '%s' + (',%s' * (teams_table_col_num - 1))
 teams_table_insert = ("""
+
     INSERT INTO teams(
         team_id,
         team
@@ -88,11 +95,13 @@ teams_table_insert = ("""
     VALUES (""" + teams_table_variables + """)
     ON CONFLICT (team_id)
         DO NOTHING;
+        
 """)
 
 time_table_col_num = 2
 time_table_variables = '%s' + (',%s' * (time_table_col_num - 1))
 time_table_insert = ("""
+
     INSERT INTO time(
         season_year_range_id,
         season_year_range
@@ -100,11 +109,13 @@ time_table_insert = ("""
     VALUES (""" + time_table_variables + """)
     ON CONFLICT (season_year_range_id)
         DO NOTHING;
+        
 """)
 
 season_stats_table_col_num = 37
 season_stats_table_variables = '%s' + (',%s' * (season_stats_table_col_num - 1))
 season_stats_table_insert = ("""
+
     INSERT INTO season_stats(
         season_stats_id,
         team_id,
@@ -147,6 +158,7 @@ season_stats_table_insert = ("""
     VALUES (""" + season_stats_table_variables + """)
     ON CONFLICT (season_stats_id)
          DO NOTHING;
+         
 """)
 
 

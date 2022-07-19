@@ -1,3 +1,4 @@
+-- Create NHL SQL View
 CREATE VIEW nhl_view AS
 SELECT te.team,
        ti.season_year_range,
