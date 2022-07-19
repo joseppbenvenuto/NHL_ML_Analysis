@@ -1,4 +1,4 @@
-from NHL_API_Web_Scraper import get_nhl_data
+from API_Web_Scraper_NHL import get_nhl_data
 from ETL_NHL import etl
 
 import sys

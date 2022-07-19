@@ -67,6 +67,14 @@ def create_tables(cur, conn):
     for query in create_table_queries:
         cur.execute(query)
         conn.commit()
+       
+    
+def create_view(cur, conn):
+    """
+    Creates nhl view
+    """
+    cur.execute(nhl_view_create)
+    conn.commit()        
     
    ###########################################################################################################################################
 # NEW CODE BLOCK - Team names and IDs from NHL API
@@ -83,18 +91,26 @@ def main():
 
     try:
         cur, conn = create_database()
-
+        
+        # Drop tables
         drop_tables(
             cur = cur, 
             conn = conn
         )
         
+        # Create tables
         create_tables(
             cur = cur, 
             conn = conn
         )
         
-        print('Tables have been created: teams, time, and season_stats')
+        # Create nhl view 
+        create_view(
+            cur = cur, 
+            conn = conn
+        )
+        
+        print('Tables have been created: teams, time, season_stats, and nhl_view')
 
         conn.close()
 
