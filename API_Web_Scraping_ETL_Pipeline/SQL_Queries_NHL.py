@@ -17,7 +17,7 @@ season_stats_table_drop = "DROP TABLE IF EXISTS season_stats;"
 teams_table_create = ("""
 
     CREATE TABLE IF NOT EXISTS teams(
-        team_id varchar NOT NULL PRIMARY KEY,
+        team_id int NOT NULL PRIMARY KEY,
         team varchar NOT NULL
     );
     
@@ -27,7 +27,7 @@ teams_table_create = ("""
 time_table_create = ("""
 
     CREATE TABLE IF NOT EXISTS time(
-        season_year_range_id varchar NOT NULL PRIMARY KEY,
+        season_year_range_id int NOT NULL PRIMARY KEY,
         season_year_range int NOT NULL
     );
     
@@ -37,7 +37,7 @@ time_table_create = ("""
 season_stats_table_create = ("""
 
     CREATE TABLE IF NOT EXISTS season_stats(
-        season_stats_id varchar NOT NULL PRIMARY KEY,
+        season_stats_id int NOT NULL PRIMARY KEY,
         team_id varchar NOT NULL,
         season_year_range_id varchar NOT NULL,
         games_played int NOT NULL,
