@@ -16,7 +16,7 @@ Achieving successful campaigns can potentially lead to increased revenue for all
 
 ## Methods Used
 
-1) Descriptive Statistics - used for preliminary data exploration.
+1) Descriptive Statistics - Used for preliminary data exploration.
 2) Multiple Linear Regression - Predict season outcomes (adjusted wins a team won (wins + (ties / 2)) / mean adjusted wins).
 3) Logistic Regression - Used predicted season outcomes to predict playoff outcomes.<br><br>
 
