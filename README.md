@@ -49,14 +49,19 @@ Achieving successful campaigns can potentially lead to increased revenue for all
 ## Technologies 
 
 1) Python 
-2) Jupyter Notebook
-3) Tableau
-4) Microsoft Excel
-5) Microsoft PowerPoint
+2) PostgreSQL
+3) Jupyter Notebook
+4) Tableau
+5) Microsoft Excel
+6) Microsoft PowerPoint
 
-## Files & Descriptions
+## Folder & Files & Descriptions
 
-* **test.ipynb -**  Using Python, a script is developed to allow for keyspace testing by viewing created tables and queries.
+* **API_Web_Scraping_ETL_Pipeline -**  Scarpes data from the web and the NHL API to then be put through an ETL process and stored in a PostGresql databse.
+&nbsp * ** Data -** Stores the warngled data to then be put through an ETL process.
+&nbsp * ** Create_Tables_NHL.py -** Creates a database called nhldb wtih all needed tables. This file can also be run when the database need to rebooted and started from scratch.
+
+
 * **create_tables.py -**  Python script is developed to drop and create tables allowing for flexibility during the ETL pipeline development phase.
 * **etl.ipynb -** A Jupyter notebook containing the first phase of development for Sparkify's ETL pipeline.
 * **etl.py -** Final ETL pipeline script that extracts data from CSV files, transforms the data appropriately to allow for future analysis, and loads the data into Sparkify's keyspace via pre-defined tables.
