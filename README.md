@@ -76,6 +76,11 @@ Achieving successful campaigns can potentially lead to increased revenue for all
 
   * **Data -** Stores the cleaned and wrangled data form the exploratory data anslysis.
   * **Regression_Models -** Stores the Multiple Linear Regression algorithm.
+  * **Preprocessing_Functions.py -** Stored funtions used in the analysis.
+  * **Regression_Metrics_Functions.py -** Stored regression funtions used in the analysis.
+  * **NHL_1983_2021_Regression_EDA.ipynb -** Jupyter Notebook going through Exploratory data analysis before fitting the Multiple Linear Regression model.
+  * **NHL_1983_2021_Multiple_Linear_Regression.ipynb -** Jupyter Notebook fitting and interpreting the Multiple Linear Regression model.
+
 
   <br>
 
