@@ -59,8 +59,6 @@ Achieving successful campaigns can potentially lead to increased revenue for all
 
 * **API_Web_Scraping_ETL_Pipeline -**  Scarpes data from the web and the NHL API to be put through an ETL process and stored in a PostgreSQL database.
   
-  <br>
-  
   * **Data -** Stores the wrangled data to then be put through an ETL process.
   * **Create_Tables_NHL.py -** Creates a database called nhldb wtih all needed tables. This file can also be run when the database needs to be rebooted and started from scratch.
   * **SQL_Queries_NHL.py -** A file that contains all the necessary SQL queries for the ETL process.
@@ -72,8 +70,6 @@ Achieving successful campaigns can potentially lead to increased revenue for all
 
 * **Regression_Analysis -**  Multiple Linear Regression analysis predicting season outcomes as described by adjusted wins a team won (wins + (ties / 2)) / mean adjusted wins.
   
-  <br>
-
   * **Data -** Stores the cleaned and wrangled data from the exploratory data analysis.
   * **Regression_Models -** Stores the Multiple Linear Regression algorithm and data scaling pipeline.
   * **Preprocessing_Functions.py -** Stored functions used in the analysis.
@@ -85,8 +81,6 @@ Achieving successful campaigns can potentially lead to increased revenue for all
   <br>
   
 * **Classification_Analysis -**  Logistic Regression analysis predicting binary outcomes whether teams make or don't make the playoffs.
-  
-  <br>
   
   * **Data -** Stores the cleaned and wrangled data from the exploratory data analysis.
   * **Classification_Models -** Stores the Logistic Regression algorithm and data scaling pipeline.
