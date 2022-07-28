@@ -65,6 +65,7 @@ Achieving successful campaigns can potentially lead to increased revenue for all
   * **API_Web_Scraper_NHL.py -** Webscrapes NHL playoff results (teams that made or didn't make the playoffs) from https://www.hockey-reference.com/ and pulls data from the NHL's API https://www.kevinsidwar.com/iot/2017/7/1/the-undocumented-nhl-stats-api.
   * **ETL_NHL.py -** Uses the data scraped from the web and pulled from the NHL API stored in the Data folder as CSV files to be processed through the ETL pipeline and stored in PostgreSQL and 2nd normal form.
   * **All_Modules.py -** Run this for all data pulls and ETL processes. The user will be prompted with questions and needs to respond when prompted. Data validation is in place.
+  * **NHLDB_Test.ipynb -** Jupyter Notebook that runs SQL queries to test nhldb after the data pipeline has been run.
 
 <br>
 
