@@ -54,3 +54,11 @@ Achieving successful campaigns can potentially lead to increased revenue for all
 4) Microsoft Excel
 5) Microsoft PowerPoint
 
+## Files & Description
+
+* **test.ipynb -**  Using Python, a script is developed to allow for keyspace testing by viewing created tables and queries.
+* **create_tables.py -**  Python script is developed to drop and create tables allowing for flexibility during the ETL pipeline development phase.
+* **etl.ipynb -** A Jupyter notebook containing the first phase of development for Sparkify's ETL pipeline.
+* **etl.py -** Final ETL pipeline script that extracts data from CSV files, transforms the data appropriately to allow for future analysis, and loads the data into Sparkify's keyspace via pre-defined tables.
+* **cassandra_queries.py -** Contains all cassandra queries used in the ETL pipeline.
+
