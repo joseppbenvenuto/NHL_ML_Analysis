@@ -70,7 +70,15 @@ Achieving successful campaigns can potentially lead to increased revenue for all
 
 <br>
 
-* **create_tables.py -**  Python script is developed to drop and create tables allowing for flexibility during the ETL pipeline development phase.
+* **Regression_Analysis -**  Multiple Linear Regression analysis predicting season outcomes as described by adjusted wins a team won (wins + (ties / 2)) / mean adjusted wins.
+  
+  <br>
+
+  * **Data -** Stores the cleaned and wrangled data form the exploratory data anslysis.
+  * **Regression_Models -** Stores the Multiple Linear Regression algorithm.
+
+  <br>
+
 * **etl.ipynb -** A Jupyter notebook containing the first phase of development for Sparkify's ETL pipeline.
 * **etl.py -** Final ETL pipeline script that extracts data from CSV files, transforms the data appropriately to allow for future analysis, and loads the data into Sparkify's keyspace via pre-defined tables.
 * **cassandra_queries.py -** Contains all cassandra queries used in the ETL pipeline.
