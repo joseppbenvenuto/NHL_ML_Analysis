@@ -2,7 +2,7 @@
 
 ## Project Description
 
-The analysis explored NHL team season data (url: https://www.kevinsidwar.com/iot/2017/7/1/the-undocumented-nhl-stats-api) from 1983 - 2020 to predict season and playoff outcomes (url: https://en.wikipedia.org/wiki/List_of_NHL_playoff_series).
+The analysis explored NHL team season data (url: https://www.kevinsidwar.com/iot/2017/7/1/the-undocumented-nhl-stats-api) from 1983 - 2020 to predict season and playoff outcomes (url: https://www.hockey-reference.com).
 
 The season outcomes were calculated by how many adjusted wins a team won (wins + (ties / 2)) above the mean adjusted wins of any given season (season win deviation). The season outcome was calculated this way due to the varying nature of hockey; in some seasons, teams were closer regarding games won, and some had a more significant divide. In addition, some seasons were more extended than other seasons, and by using the adjusted games a team won **(wins + (ties / 2))** above or below the mean adjusted wins of any given season metric, all seasons were included in the analysis despite some seasons having fewer games played (shortened due to strike and pandemic).
 
