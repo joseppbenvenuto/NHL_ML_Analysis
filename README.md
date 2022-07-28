@@ -36,7 +36,7 @@ Achieving successful campaigns can potentially lead to increased revenue for all
 
 ## Presentation Deck
 
-* Deployed here: https://1drv.ms/p/s!Aq0DLMt0IS3zgnZOju4z9H5Gz3Yb?e=beWNGZ<br><br>
+* Deployed here: https://1drv.ms/p/s!Aq0DLMt0IS3zgn72EaqqBGdRCSvd?e=jfOE7U<br><br>
 
 ![](ReadMe_Images/Deck.png)<br><br>
 
