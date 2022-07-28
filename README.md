@@ -54,7 +54,7 @@ Achieving successful campaigns can potentially lead to increased revenue for all
 4) Microsoft Excel
 5) Microsoft PowerPoint
 
-## Files & Description
+## Files & Descriptions
 
 * **test.ipynb -**  Using Python, a script is developed to allow for keyspace testing by viewing created tables and queries.
 * **create_tables.py -**  Python script is developed to drop and create tables allowing for flexibility during the ETL pipeline development phase.
