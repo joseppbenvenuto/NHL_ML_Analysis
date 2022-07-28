@@ -65,6 +65,7 @@ Achieving successful campaigns can potentially lead to increased revenue for all
   * **ETL_NHL.py -** Uses the data scraped from the web and pulled from the NHL API stored in the Data folder as CSV files to be processed through the ETL pipeline and stored in PostgreSQL and 2nd normal form.
   * **All_Modules.py -** Run this for all data pulls and ETL processes. The user will be prompted with questions and needs to respond when prompted. Data validation is in place.
 
+<br>
 
 * **create_tables.py -**  Python script is developed to drop and create tables allowing for flexibility during the ETL pipeline development phase.
 * **etl.ipynb -** A Jupyter notebook containing the first phase of development for Sparkify's ETL pipeline.
