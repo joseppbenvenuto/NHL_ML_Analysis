@@ -60,6 +60,8 @@ Achieving successful campaigns can potentially lead to increased revenue for all
 * **API_Web_Scraping_ETL_Pipeline -**  Scarpes data from the web and the NHL API to then be put through an ETL process and stored in a PostGresql databse.
   * **Data -** Stores the warngled data to then be put through an ETL process.
   * **Create_Tables_NHL.py -** Creates a database called nhldb wtih all needed tables. This file can also be run when the database need to rebooted and started from scratch.
+  * **SQL_Queries_NHL.py -** A file that contains all the nessesary SQL queries for the ETL process.
+  * **API_Web_Scraper_NHL.py -** Webscrapes NHL playoff results (teams that made or didn't make the playoffs) from https://www.hockey-reference.com/ and pulls data from the NHL's API https://www.kevinsidwar.com/iot/2017/7/1/the-undocumented-nhl-stats-api.
 
 
 * **create_tables.py -**  Python script is developed to drop and create tables allowing for flexibility during the ETL pipeline development phase.
