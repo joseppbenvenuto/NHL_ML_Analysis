@@ -57,13 +57,13 @@ Achieving successful campaigns can potentially lead to increased revenue for all
 
 ## Folder & Files & Descriptions
 
-* **API_Web_Scraping_ETL_Pipeline -**  Scarpes data from the web and the NHL API to then be put through an ETL process and stored in a PostGresql databse.
+* **API_Web_Scraping_ETL_Pipeline -**  Scarpes data from the web and the NHL API to be put through an ETL process and stored in a PostgreSQL database.
   
   <br>
   
-  * **Data -** Stores the warngled data to then be put through an ETL process.
-  * **Create_Tables_NHL.py -** Creates a database called nhldb wtih all needed tables. This file can also be run when the database need to rebooted and started from scratch.
-  * **SQL_Queries_NHL.py -** A file that contains all the nessesary SQL queries for the ETL process.
+  * **Data -** Stores the wrangled data to then be put through an ETL process.
+  * **Create_Tables_NHL.py -** Creates a database called nhldb wtih all needed tables. This file can also be run when the database needs to be rebooted and started from scratch.
+  * **SQL_Queries_NHL.py -** A file that contains all the necessary SQL queries for the ETL process.
   * **API_Web_Scraper_NHL.py -** Webscrapes NHL playoff results (teams that made or didn't make the playoffs) from https://www.hockey-reference.com/ and pulls data from the NHL's API https://www.kevinsidwar.com/iot/2017/7/1/the-undocumented-nhl-stats-api.
   * **ETL_NHL.py -** Uses the data scraped from the web and pulled from the NHL API stored in the Data folder as CSV files to be processed through the ETL pipeline and stored in PostgreSQL and 2nd normal form.
   * **All_Modules.py -** Run this for all data pulls and ETL processes. The user will be prompted with questions and needs to respond when prompted. Data validation is in place.
@@ -74,17 +74,24 @@ Achieving successful campaigns can potentially lead to increased revenue for all
   
   <br>
 
-  * **Data -** Stores the cleaned and wrangled data form the exploratory data anslysis.
-  * **Regression_Models -** Stores the Multiple Linear Regression algorithm.
-  * **Preprocessing_Functions.py -** Stored funtions used in the analysis.
-  * **Regression_Metrics_Functions.py -** Stored regression funtions used in the analysis.
+  * **Data -** Stores the cleaned and wrangled data from the exploratory data analysis.
+  * **Regression_Models -** Stores the Multiple Linear Regression algorithm and data scaling pipeline.
+  * **Preprocessing_Functions.py -** Stored functions used in the analysis.
+  * **Regression_Metrics_Functions.py -** Stored regression functions used in the analysis.
   * **NHL_1983_2021_Regression_EDA.ipynb -** Jupyter Notebook going through Exploratory data analysis before fitting the Multiple Linear Regression model.
   * **NHL_1983_2021_Multiple_Linear_Regression.ipynb -** Jupyter Notebook fitting and interpreting the Multiple Linear Regression model.
 
 
   <br>
-
-* **etl.ipynb -** A Jupyter notebook containing the first phase of development for Sparkify's ETL pipeline.
-* **etl.py -** Final ETL pipeline script that extracts data from CSV files, transforms the data appropriately to allow for future analysis, and loads the data into Sparkify's keyspace via pre-defined tables.
-* **cassandra_queries.py -** Contains all cassandra queries used in the ETL pipeline.
+  
+* **Classification_Analysis -**  Logistic Regression analysis predicting binary outcomes whether teams make or don't make the playoffs.
+  
+  <br>
+  
+  * **Data -** Stores the cleaned and wrangled data from the exploratory data analysis.
+  * **Classification_Models -** Stores the Logistic Regression algorithm and data scaling pipeline.
+  * **Preprocessing_Functions.py -** Stored functions used in the analysis.
+  * **Classification_Metrics_Functions.py -** Stored classification functions used in the analysis.
+  * **NHL_1983_2021_Classification_EDA.ipynb -** Jupyter Notebook going through Exploratory data analysis before fitting the Logistic Regression model.
+  * **NHL_1983_2021_Logistic_Regression.ipynb -** Jupyter Notebook fitting and interpreting the Logistic Regression model.
 
