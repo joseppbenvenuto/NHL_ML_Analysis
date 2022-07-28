@@ -58,6 +58,9 @@ Achieving successful campaigns can potentially lead to increased revenue for all
 ## Folder & Files & Descriptions
 
 * **API_Web_Scraping_ETL_Pipeline -**  Scarpes data from the web and the NHL API to then be put through an ETL process and stored in a PostGresql databse.
+  
+  <br>
+  
   * **Data -** Stores the warngled data to then be put through an ETL process.
   * **Create_Tables_NHL.py -** Creates a database called nhldb wtih all needed tables. This file can also be run when the database need to rebooted and started from scratch.
   * **SQL_Queries_NHL.py -** A file that contains all the nessesary SQL queries for the ETL process.
