@@ -138,15 +138,15 @@ def process_data(start_date, end_date):
     # Create unique id for season stats
     nhl_full_df = nhl_full_df.reset_index()
     nhl_full_df['season_stats_id'] = nhl_full_df['index']
-#     nhl_full_df['season_stats_id'] = 's - ' + nhl_full_df['season_stats_id'].astype(str)
+    #  nhl_full_df['season_stats_id'] = 's - ' + nhl_full_df['season_stats_id'].astype(str)
     
     nhl_full_df = nhl_full_df.drop(['index'], axis = 1, errors = 'ignore')
     # Create unique id for season_year_range
     nhl_full_df['season_year_range_id'] = nhl_full_df.groupby(['season_year_range']).ngroup()
-#     nhl_full_df['season_year_range_id'] = 't - ' + nhl_full_df['season_year_range_id'].astype(str)
+    #  nhl_full_df['season_year_range_id'] = 't - ' + nhl_full_df['season_year_range_id'].astype(str)
     
     # Create unique id for season_year_range
-#     nhl_full_df['team_id'] = 'y - ' + nhl_full_df['id'].astype(str)
+    # nhl_full_df['team_id'] = 'y - ' + nhl_full_df['id'].astype(str)
 
     print('Processed full data')
 
