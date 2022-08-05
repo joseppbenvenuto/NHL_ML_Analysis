@@ -151,5 +151,8 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-# Excel nhl_db documentation
+# Excel nhldb documentation
 NHL_DB_Documentation.xlsm
+
+# NHL ML Analysis Presentation Slides
+S-NHL_Slides.pptx
