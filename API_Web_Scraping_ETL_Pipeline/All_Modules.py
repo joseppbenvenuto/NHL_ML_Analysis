@@ -53,15 +53,13 @@ def main():
     Runs the ETL pipline to store the NHL season and playoff data in PostgreSQL database (nhldb)
     ''')
 
-    string = "Would you like to run the ETL Module? ['yes','y'] or ['no','n']"
-    print(string)
-    input_2 = input()
+    input_2 = input("Would you like to run the ETL Module? ['yes','y'] or ['no','n']")
     input_2 = input_2.lower()
 
     if input_2 in yesChoice:
         try:
             '''
-            - Run mc report ETL to nhldb
+            - Run ETL pipeline to nhldb
             '''
             etl()
             input("ETL Module complete, please press enter or Ctrl C to end the program")
