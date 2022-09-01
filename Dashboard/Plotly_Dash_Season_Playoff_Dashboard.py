@@ -58,6 +58,7 @@ app.layout = html.Div([
     
     # Header
     html.Div([
+        
         html.H2(
             'Season & Playoff Predictions Dashboard',
             # Font/background styling
