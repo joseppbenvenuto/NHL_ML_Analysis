@@ -74,10 +74,15 @@ app.layout = html.Div([
     
     # Historical data for chosen field
     html.Div([
+
         dbc.Row([
+
             dbc.Col(
+
                 dbc.Card(
+
                     html.Div([
+
                         html.H3(
                             "Season & Playoff Predictions Form",
                             # Font styling
@@ -205,8 +210,11 @@ app.layout = html.Div([
             
             # Season Adjusted Wins Deviation prediction
             dbc.Col([
+
                 dbc.Row([
+
                     dbc.Card(
+
                         html.H3(
                             id = 'games',
                             # Font styling
@@ -271,6 +279,7 @@ app.layout = html.Div([
     
     # Instructions
     html.Div([
+
         html.H1(
             'Instructions',
             # Font/background styling
@@ -285,6 +294,7 @@ app.layout = html.Div([
         ),
         
         html.Div(
+            
             dcc.Markdown(
                 dedent('''
                 Enter team stats into the Season & Playoff Predictions Form and click submit to view season and 
@@ -316,6 +326,7 @@ app.layout = html.Div([
     
     # Final ending block
     html.Div([
+
         html.H1(
             '',
             # Font/background styling
