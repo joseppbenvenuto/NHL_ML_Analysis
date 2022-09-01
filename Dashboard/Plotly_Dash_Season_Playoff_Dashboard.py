@@ -94,6 +94,7 @@ app.layout = html.Div([
                         
                         # Question 1
                         dbc.Row([
+
                             dbc.Input(
                                 id = "input1",
                                 placeholder = question1,
@@ -112,6 +113,7 @@ app.layout = html.Div([
                         
                         # Question 2
                         dbc.Row([
+
                             dbc.Input(
                                 id = "input2",
                                 placeholder = question2,
@@ -129,6 +131,7 @@ app.layout = html.Div([
                         
                         # Question 3
                         dbc.Row([
+
                             dbc.Input(
                                 id = "input3",
                                 placeholder = question3,
@@ -146,6 +149,7 @@ app.layout = html.Div([
                         
                         # Question 4
                         dbc.Row([
+
                             dbc.Input(
                                 id = "input4",
                                 placeholder = question4,
@@ -163,6 +167,7 @@ app.layout = html.Div([
                         
                         # Question 5
                         dbc.Row([
+
                             dbc.Input(
                                 id = "input5",
                                 placeholder = question5,
@@ -180,6 +185,7 @@ app.layout = html.Div([
                         
                         # Submit button
                         dbc.Row([
+
                             html.Button(
                                 'Submit',
                                 id = 'submit-val'
@@ -242,6 +248,7 @@ app.layout = html.Div([
                 
                 # Gauge
                 dbc.Row([
+                    
                     dbc.Card(
                         dcc.Graph(
                             id = 'gauge'
