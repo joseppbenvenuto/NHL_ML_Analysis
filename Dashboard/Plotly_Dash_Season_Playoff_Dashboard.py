@@ -251,6 +251,7 @@ app.layout = html.Div([
                 dbc.Row([
                     
                     dbc.Card(
+                        
                         dcc.Graph(
                             id = 'gauge'
                         ),
