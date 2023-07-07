@@ -24,7 +24,7 @@ Achieving successful campaigns can potentially lead to increased revenue for all
 
 <p><strong>App User Name:</strong> data<br> <strong>App Password:</strong> analyst <br><strong>Note -</strong> the dashboard takes a few seconds to load</p>
 
-* Deployed to Heroku here: https://nhl-dash-app.herokuapp.com/<br><br>
+* Deployed to Render here: https://nhl-ml-dash.onrender.com/<br><br>
 
 ![](ReadMe_Images/Dash2.png)<br><br>
 
